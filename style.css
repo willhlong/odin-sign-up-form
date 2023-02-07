@@ -3,6 +3,12 @@
   src: url(font/Norse-Bold.otf);
 }
 
+:root {
+  --left-side-width: 40vw;
+  --righ-side-width: 60vw;
+  --page-height: 100vh;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -18,14 +24,15 @@ img[src="images/odin-lined.png"] {
   height: 5rem;
 }
 .content {
-  display: flex;
-  height: 100vh;
+  display: flex;  
+  height: var(--page-height);
 }
 
-.picture {
+/* Styling for left side background image and logo */
+.left-content {
   background-image: url("images/remi-devaux-A94d3FxWCco-unsplash.jpg");
   background-size: cover;
-  width: 30vw;
+  width: var(--left-side-width);
   display: flex;
   justify-content: center;
 }
@@ -37,14 +44,20 @@ img[src="images/odin-lined.png"] {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30vw;
+  width: var(--left-side-width);
 }
 
 .credit {
   position: absolute;
   top: 95vh;
-  width: 30vw;
+  width: var(--left-side-width);
   text-align: center;
   color: white;
   font-family: Roboto, sans-serif;
+}
+
+/* Styling for right side form and content */
+
+.right-content {
+  width: var(--righ-side-width);
 }
