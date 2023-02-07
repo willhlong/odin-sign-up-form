@@ -1,3 +1,50 @@
+@font-face {
+  font-family: NorseBold;
+  src: url(font/Norse-Bold.otf);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
-  color: orange;
+  color: white;
+  font-size: 4rem;
+  font-family: NorseBold;
+}
+
+img[src="images/odin-lined.png"] {
+  height: 5rem;
+}
+.content {
+  display: flex;
+  height: 100vh;
+}
+
+.picture {
+  background-image: url("images/remi-devaux-A94d3FxWCco-unsplash.jpg");
+  background-size: cover;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  position: absolute;
+  top: 20vh;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+}
+
+.credit {
+  position: absolute;
+  top: 95vh;
+  width: 30vw;
+  text-align: center;
+  color: white;
+  font-family: Roboto, sans-serif;
 }
