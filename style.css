@@ -60,4 +60,39 @@ img[src="images/odin-lined.png"] {
 
 .right-content {
   width: var(--righ-side-width);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.intro, .create-account {
+  flex-grow: 1;
+  flex-basis: 25vh;
+}
+
+.right-content>.form {
+  flex-grow: 2;
+  flex-basis: 25vh;
+  justify-content: center;
+}
+
+.name, .contact-info, .password {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10vw;
+}
+
+.name>*, .contact-info>*, .password>* {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-content-wrapper>h2 {
+  margin: 0;
 }
