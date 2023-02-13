@@ -32,7 +32,7 @@ img[src="images/odin-lined.png"] {
 
 /* Styling for left side background image and logo */
 .left-content {
-  background-image: url("images/remi-devaux-A94d3FxWCco-unsplash.jpg");
+  background-image: url("images/simon-pallard-jw6TYTGdNbk-unsplash.jpg");
   background-size: cover;
   width: var(--left-side-width);
   display: flex;
@@ -42,7 +42,7 @@ img[src="images/odin-lined.png"] {
 .logo {
   position: absolute;
   top: 20vh;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.6);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,6 +55,17 @@ img[src="images/odin-lined.png"] {
   width: var(--left-side-width);
   text-align: center;
   color: white;
+}
+.credit>a:link, .credit>a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.credit>a:hover {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 /* Styling for right side form and content */
