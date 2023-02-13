@@ -60,20 +60,18 @@ img[src="images/odin-lined.png"] {
 
 .right-content {
   width: var(--righ-side-width);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
 
-.intro, .create-account {
-  flex-grow: 1;
-  flex-basis: 25vh;
+.intro {
+  margin: 20vh 100px 50px 100px;
 }
 
-.right-content>.form {
-  flex-grow: 2;
-  flex-basis: 25vh;
-  justify-content: center;
+.form {
+  margin: 50px 100px;
+}
+
+.create-account {
+  margin: 50px 100px 100px 100px;
 }
 
 .name, .contact-info, .password {
