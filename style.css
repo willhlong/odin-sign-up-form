@@ -103,7 +103,26 @@ input:hover {
   margin: 25px 5vw;
 }
 
-.create-account
+.create-account button {
+  background-color: rgb(187, 187, 235);
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+  padding: 20px 50px;
+}
+
+.create-account button:hover {
+  background-color: rgb(165, 165, 209);
+}
+
+.create-account a:link {
+  color: rgb(187, 187, 235);
+  text-decoration: none;
+}
+
+.create-account a:hover {
+  color: rgb(165, 165, 209);
+}
 
 .name, .contact-info, .password {
   display: flex;
