@@ -99,6 +99,13 @@ input:hover {
   border-style: solid;
 }
 
+input:focus {
+  border: 1px blue;
+  border-style: solid;
+  outline: none;
+  box-shadow: 0px 5px 5px lightblue;
+}
+
 .create-account {
   margin: 25px 5vw;
 }
